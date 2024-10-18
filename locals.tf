@@ -2,7 +2,7 @@
 locals {
   # Environment
   environment = reverse(split("-", terraform.workspace))[0]
-  create      = "Terraform dev"
+  create      = "Terraform"
   owner       = "Developers"
 }
 
